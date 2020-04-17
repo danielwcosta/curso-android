@@ -8,36 +8,18 @@
     tools:context=".BemVindoActivity"
     android:background="@color/cardview_dark_background">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+
+    <TextView
+        android:id="@+id/id_bemVindo_nome"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        tools:text="Seja bem vindo NOME!" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="26dp"
-            android:textColor="#FFFFFF"
-            android:text="Seja bem vindo " />
-
-        <TextView
-            android:id="@+id/id_bemVindo_nome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="26dp"
-            android:textColor="#FFFFFF"
-            android:text=" NOME" />
-
-        <TextView
-            android:id="@+id/id_bemVindo_exclamacao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="26dp"
-            android:textColor="#FFFFFF"
-            android:text=" !!!!" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/id_bemVindo_email"

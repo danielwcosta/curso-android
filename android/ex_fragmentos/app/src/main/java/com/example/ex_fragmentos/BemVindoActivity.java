@@ -28,7 +28,8 @@ public class BemVindoActivity extends AppCompatActivity {
         if(getIntent() != null){
             Bundle infosLogin = getIntent().getExtras();
             if(infosLogin != null){
-                nomePerfil.setText(infosLogin.getString("NOME"));
+                String fraseBemVindo = "Seja bem vindo " + infosLogin.getString("NOME") +"!";
+                nomePerfil.setText(fraseBemVindo);
                 emailPerfil.setText(infosLogin.getString("EMAIL"));
                 senhaPerfil.setText(infosLogin.getString("SENHA"));
             }
