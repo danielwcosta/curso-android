@@ -1,0 +1,7 @@
+Instruções:
+
+1- Criar background na pasta .../res/drawable (arquivo .xml)
+
+2- Criar um novo <style></style> no arquivo res/values/style.xml
+
+3- Set o style no arquivo AndroidManifest.xml
