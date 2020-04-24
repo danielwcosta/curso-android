@@ -11,6 +11,6 @@
         parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:windowBackground">@drawable/jogando_tinta</item>
+        <item name="android:windowBackground">@drawable/splash</item>
     </style>
 </resources>

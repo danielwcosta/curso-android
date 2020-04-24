@@ -3,9 +3,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque"
     >
-      <item>
+    <item>
+        <shape>
+            <gradient android:angle="45"
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/colorAccent"
+                android:type="linear"
+                />
+        </shape>
+    </item>
+      <item
+          android:width="400dp"
+          android:height="279dp"
+          android:gravity="center_vertical">
         <bitmap
-            android:gravity="center"
             android:src="@drawable/jogando_tinta"
             />
     </item>

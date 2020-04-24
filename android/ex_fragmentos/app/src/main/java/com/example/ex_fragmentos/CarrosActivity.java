@@ -40,8 +40,6 @@ public class CarrosActivity extends AppCompatActivity {
         });
     }
 
-
-
     public void carregaFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
