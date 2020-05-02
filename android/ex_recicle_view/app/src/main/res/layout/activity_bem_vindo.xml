@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".BemVindoActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo!"
+        android:textSize="42sp"
+        android:textColor="@color/branquim"
+        android:gravity="center"
+        android:layout_marginTop="250dp"/>
+    <TextView
+        android:id="@+id/bemvindo_nome_sobrenome_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOME SOBRENOME"
+        android:textSize="32sp"
+        android:textColor="@color/branquim"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/bemvindo_idade_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: IDADE"
+        android:textSize="32sp"
+        android:textColor="@color/branquim"
+        android:gravity="center"
+        />
+
+</LinearLayout>
