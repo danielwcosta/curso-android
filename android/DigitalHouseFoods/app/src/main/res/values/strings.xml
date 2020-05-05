@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DHFoods</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">log in</string>
+    <string name="register">register</string>
+    <string name="or">or</string>
+    <string name="nome">Nome</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="pratos_principais">Pratos principais</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu velit tempor, tincidunt tortor ac, venenatis nulla. Vestibulum fringilla libero eu est consectetur, ac posuere nisl mollis. Nulla non ipsum justo. Ut semper sapien commodo ante accumsan scelerisque. Phasellus et.</string>
+</resources>
