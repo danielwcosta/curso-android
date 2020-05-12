@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imagens_frag_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Fragments.ImagensFragment"
+    android:background="@color/blue_grey_800">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/frag_imagens_recycler_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+</FrameLayout>
