@@ -18,12 +18,12 @@ class MainActivity : AppCompatActivity() {
         val senha = findViewById<EditText>(R.id.login_password)
         val btnSave = findViewById<Button>(R.id.login_btnsave)
     btnSave.setOnClickListener {
-//        if(editTextIsEmpty(nome,email,senha)){
-//            Toast.makeText(it.context, "Preencha todos os campos!", Toast.LENGTH_LONG).show()
+        if(editTextIsEmpty(nome,email,senha)){
+            Toast.makeText(it.context, "Preencha todos os campos!", Toast.LENGTH_LONG).show()
 
-//        }else{
+        }else{
         startActivity(Intent(this,ComicsActivity::class.java))}
-//    }
+    }
     }
 
 }

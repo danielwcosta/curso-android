@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ComicDetailsActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/background">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ComicDetailsActivity"
+    android:background="@color/background"
+    android:layout_marginBottom="20dp">
 
     <ImageView
         android:id="@+id/comicdetails_backarrow_id"
@@ -119,27 +124,30 @@
         android:textSize="15sp"
         android:gravity="start"
         android:textAllCaps="false"/>
+
     <TextView
         android:id="@+id/comicdetails_pages_tag_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/comicdetails_price_tag_id"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="8dp"
+        android:gravity="start"
         android:text="Pages: "
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:gravity="start"
-        android:textAllCaps="false"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/comicdetails_price_tag_id" />
+
     <TextView
         android:id="@+id/comicdetails_pages_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/comicdetails_price_tag_id"
         app:layout_constraintStart_toEndOf="@id/comicdetails_pages_tag_id"
-        android:layout_marginTop="20dp"
+        android:layout_marginVertical="20dp"
         android:text="38"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -149,3 +157,4 @@
 
 </android.support.constraint.ConstraintLayout>
 
+</ScrollView>
